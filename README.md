@@ -1,6 +1,6 @@
 # A basic Django Model to view in the Admin panel
 
-A basic Django Model
+Create and view books in the Django Admin panel
 
 ## Run
 
@@ -12,7 +12,16 @@ A basic Django Model
 
 ## Concepts
 
+### Data Models
+
+See `books/models.py`
+
 ### Migrations
 
-- `makemigrations` is responsible for packaging up your model changes into individual migration files
-- `migrate` is responsible for applying those to your database.
+- `python manage.py makemigrations` is responsible for packaging up your model changes into individual migration files
+- `python manage.py migrate` is responsible for applying those to your database.
+
+## Re-create this project
+
+- [BASIC_POETRY_DJANGO_SETUP.md](./docs/BASIC_POETRY_DJANGO_SETUP.md) contains instructions to set up the basics of this project
+- [HOW_TO.md](./docs/HOW_TO.md) contains a step-by-step instruction to recreate this project.
