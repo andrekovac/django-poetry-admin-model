@@ -10,7 +10,7 @@
    
    In `backend/settings.py` -> `INSTALLED_APPS` add `'books'`
 
-5. Create a `Book` model (see `books/models.py`)
+5. Create a `Book` model (see [books/models.py](../books/models.py))
 
 ### Migrations
 
@@ -32,14 +32,14 @@
 
 ### Django Admin Panel
 
-9.  Register the model so the admin site is aware of it: import model in `albums/admin.py`
+1.  Register the model so the admin site is aware of it:
 
-   1. In `albums/admin.py` add the line `admin.site.register(Book)`
+   1. In `books/admin.py` add the line `admin.site.register(Book)`
    2. Hover over `Book` with your cursor and hit `Cmd + .` -> pick the import from `books.models` -> This should create `from books.models import Book`
 
-10. Create an admin user via `python manage.py createsuperuser`. Just use `admin` as username and password. Yes, let's bypass password validation 🙈
-11.  Run the server (`python manage.py runserver`) and login to the admin panel on `http://127.0.0.1:8000/admin/`.
-12. Add a **book** (note the POST request showing in terminal)
+2.  Create an admin user via `python manage.py createsuperuser`. Just use `admin` as username and password. Yes, let's bypass password validation 🙈
+3.   Run the server (`python manage.py runserver`) and login to the admin panel on `http://127.0.0.1:8000/admin/`.
+4.  Add a **book** (note the POST request showing in terminal)
 
 ### View SQLite DB
 
