@@ -26,7 +26,9 @@
 
    <img width="538" alt="image" src="https://user-images.githubusercontent.com/1945462/163561438-678195cb-4245-4388-8e87-badb10e3f47e.png">
 
-   and observe the structure of the newly created `books` table:
+   - In the command palate (`Cmd` + `Shift` + `p`) search for **"SQLite: Open Database"** and run that command.
+
+   - An **SQLITE EXPLORER** Tab should now be visible for you somewhere at the bottom. Observe the structure of the newly created `books` table:
 
    <img width="449" alt="image" src="https://user-images.githubusercontent.com/1945462/163561574-f0c87ca5-b135-490e-bc1d-277bbe25df02.png">
 
